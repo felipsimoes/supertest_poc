@@ -1,0 +1,21 @@
+{
+  "name": "openweathermap",
+  "version": "1.0.0",
+  "description": "Current weather and forecasts in your city",
+  "main": "index.js",
+  "author": "Felipe Simoes",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha scenarios.js --timeout 100000"
+  },
+  "devDependencies": {
+    "@hapi/joi": "^17.1.1",
+    "chai": "^4.2.0",
+    "mocha": "^7.1.1",
+    "supertest": "^4.0.2"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "pino": "^6.0.0"
+  }
+}
